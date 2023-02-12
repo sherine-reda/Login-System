@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+  <div class="container my-5 text-center">
+   <div class="content w-75 m-auto p-5">
+    <h1 class="text-info">Smart Login System</h1>
+    <input type="text" class="form-control my-3 btn-outline-light bg-transparent text-light" placeholder="Enter your name" id="registerName"/>
+    <input type="text" class="form-control my-3 btn-outline-light bg-transparent text-light" placeholder="Enter your email" id="registerEmail"/>
+    <input type="password" class="form-control my-3 btn-outline-light bg-transparent text-light" placeholder="Enter your password" id="registerPassword"/>
+    <p class="text-danger m-3 d-none" id="alertRegister"></p>
+    <button onclick="register()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+    <p class="text-success m-3 d-none" id="successRegister"></p>
+    <p class="text-white">You have an account? <a class="text-white" href="index.html">Signin</a></p>
+  </div>
+  </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

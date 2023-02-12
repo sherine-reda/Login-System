@@ -1,0 +1,23 @@
+a{
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+}
+body{
+  background-color: #24353f;
+  font-family: 'Titillium Web', sans-serif;
+}
+.content{
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+::placeholder{
+  color: #ced4da !important;
+}
+.navbar{
+  background-color: #24353f !important;
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+.homecontent{
+  padding-top: 150px;
+}
